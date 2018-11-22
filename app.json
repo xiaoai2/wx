@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/lb/lb"
+  ],
+  "window":{
+    "backgroundTextStyle":"white",
+    "navigationBarBackgroundColor": "#15b982",
+    "navigationBarTitleText": "武汉理工",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#0f0",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/pics/home_normal.png",
+      "selectedIconPath": "/pics/home_press.png"
+    },
+    {
+      "pagePath": "pages/lb/lb",
+      "text": "列表页",
+      "iconPath": "/pics/list_normal.png",
+      "selectedIconPath": "/pics/list_press.png"
+    }]
+  }
+}

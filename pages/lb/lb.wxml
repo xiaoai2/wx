@@ -1,0 +1,12 @@
+<block wx:for-items="{{result}}">
+
+    <view style="width:100%; height: 10rpx"></view>
+
+    <!--index默认为下标，item为每项-->
+    <text>第{{index+1}}条数据 {{item.content}}</text>
+
+</block>
+
+
+
+
